@@ -5,7 +5,7 @@ function imposto() {
   }
   let salarioliquido;
   salario = parseFloat(salario);
-  if (salario <= 2259.2) {
+  if (salario <= 2259.20) {
     alert("A taxa é isenta no teu caso");
   } else {
     if (salario < 2826.65) {
