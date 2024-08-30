@@ -51,7 +51,7 @@ function trigonometria() {
     }
 
     while (hipotenusa <= 0 || isNaN(hipotenusa) || hipotenusa.trim === "") {
-        hipotenusa = prompt("Digite novamente, você é burro");
+        hipotenusa = prompt("Digite novamente, valor invalido");
     }
 
     cAD = parseFloat(cAD);
