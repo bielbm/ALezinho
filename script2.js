@@ -28,6 +28,7 @@ function IPRF() {
                 } else {
                     alert("Voce paga pagara 27,5% de imposto de renda");
                     salarioliquido = (salario - 2259.20) * 0.275;
+                    taxa = salario - salarioliquido;
                     alert(`A taxa que você tera que pagar do seu salario é ${taxa.toFixed(2)} e o salario ja descontado é de ${salarioliquido.toFixed(2)}`);
                 }
             }
@@ -50,8 +51,8 @@ function trigonometria() {
         hipotenusa = prompt("Digite novamente, valor invalido");
     }
 
-    while (hipotenusa <= 0 || isNaN(hipotenusa) || hipotenusa.trim === "") {
-        hipotenusa = prompt("Digite novamente, valor invalido");
+    while (cOT <= 0 || isNaN(cOT) || cOT.trim === "") {
+       cOT = prompt("Digite novamente, valor invalido");
     }
 
     cAD = parseFloat(cAD);
